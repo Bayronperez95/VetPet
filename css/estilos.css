@@ -158,6 +158,10 @@ main .sobre-nosotros{
     background: #f2f2f2;
 }
 
+.portafolio a {
+    text-decoration: none;
+}
+
 .galeria-port{
     display: flex;
     justify-content: space-evenly;
