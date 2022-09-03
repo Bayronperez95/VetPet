@@ -5,7 +5,7 @@
 }
 
 .content{
-    width: 1510px;
+    width: 1200px;
     margin: 0 block;
     padding: 20px 0;
 }
@@ -324,7 +324,7 @@ footer{
     color: #9e9797;
 }
 
-@media only screen and (max-width:1509px){
+@media only screen and (max-width:1199px){
     header{
         background-position: center;
     }
@@ -386,7 +386,7 @@ footer{
     }
 }
 
-@media only screen and (max-width:1509px){
+@media only screen and (max-width:1199px){
     nav, h1, h2, h3{
         text-align: center;
         padding: 30px 0 0 0;
