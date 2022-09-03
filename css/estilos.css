@@ -47,17 +47,14 @@ body {
     margin-bottom: 60px;
 }
 
-/* Header */
+
 
 header {
     width: 100%;
     height: 600px;
     background: #4ebc69;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada1.jpg);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(242, 35%, 86%, 0.829), hsla(268, 69%, 67%, 0.664)), url(../img/portada1.jpg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -109,7 +106,7 @@ header .textos-header{
     width: 100%;
 }
 
-/* About us */
+
 
 main .sobre-nosotros{
     padding: 30px 0px 60px 70px;
@@ -151,7 +148,7 @@ main .sobre-nosotros{
     text-align: justify;
 }
 
-/* Galeria */
+
 
 
 .portafolio{
@@ -211,7 +208,7 @@ main .sobre-nosotros{
     transform: scale(1);
 }
 
-/* Clients */
+
 
 .cards{
     display: flex;
@@ -248,7 +245,7 @@ main .sobre-nosotros{
     padding-top: 5px;
 }
 
-/*  Our team */
+
 
 .about-services{
     background: #f2f2f2;
@@ -280,7 +277,7 @@ main .sobre-nosotros{
     text-align: justify;
 }
 
-/* footer */
+
 
 footer{
     background: #414141;
@@ -343,13 +340,13 @@ footer{
         width: 90%;
     }
 
-    /* Galeria */
+
 
     .imagen-port{
         width: 44%;
     }
 
-    /* Clientes */
+
 
     .cards{
         flex-direction: column;
@@ -365,7 +362,7 @@ footer{
         margin-bottom: 30px;
     }
 
-    /* servicios */
+
 
     .servicio-cont{
         justify-content: center;
@@ -404,7 +401,6 @@ footer{
         font-size: 20px;
     }
 
-    /* ABOUT US */
 
     .imagen-about-us{
         margin-bottom: 60px;
@@ -415,13 +411,11 @@ footer{
         width: 95%;
     }
 
-    /* Galeria */
 
     .imagen-port{
         width: 95%;
     }
 
-    /* Clients */
 
     .cards .card{
         height: 450px;
@@ -435,7 +429,6 @@ footer{
         height: 90px;
     }
 
-    /* Footer */
 
     .contenedor-footer{
         flex-direction: column;
